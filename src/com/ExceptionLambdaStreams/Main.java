@@ -116,8 +116,7 @@ public class Main {
 
         }
 
-        txt.stream()
-                .forEach(n -> System.out.print("1. "+n.getName()));
+
 
 
 
