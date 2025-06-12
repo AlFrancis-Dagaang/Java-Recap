@@ -102,9 +102,7 @@ public class Main {
                     if (txt.isEmpty()) {
                         System.out.println("No text files found");
                     }else{
-                        txt.forEach(file -> {
-                            System.out.println(file.getName());
-                        });
+                        txt.forEach(file -> System.out.println(file.getName()));
                     }
                     break;
                 case 2:
