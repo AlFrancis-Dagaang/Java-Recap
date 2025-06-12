@@ -39,4 +39,28 @@ public class Roles {
         this.write = write;
         this.delete = delete;
     }
-}
+
+     public boolean isRead() {
+         return read;
+     }
+
+     public void setRead(boolean read) {
+         this.read = read;
+     }
+
+     public boolean isWrite() {
+         return write;
+     }
+
+     public void setWrite(boolean write) {
+         this.write = write;
+     }
+
+     public boolean isDelete() {
+         return delete;
+     }
+
+     public void setDelete(boolean delete) {
+         this.delete = delete;
+     }
+ }
